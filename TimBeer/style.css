@@ -1,0 +1,90 @@
+html{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    color: grey;
+    z-index: -1;
+}
+h1{
+    color:rgb(211, 52, 52);
+    font-weight:bolder;
+}
+h2{
+    margin:20px;
+}
+p{
+    font-size: 20px;
+    margin:10px;
+    padding:50px;
+}
+
+button{
+    color: white;
+    background-color:rgb(211, 52, 52);
+    border-radius: 5px;
+    padding:10px;
+    margin: 5px;
+}
+button a{
+    color :white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul{
+    margin: 20px;
+    padding: 70px; 
+}
+
+li{
+    float: left;
+    display: inline;
+    color: grey;
+    width: 32%;
+    margin:3px;
+}
+i{
+    width:50px;
+    height: 50px;
+}
+article{
+    display:flex;
+    flex-flow: column;
+    
+} 
+
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 10px;
+    border-radius: 5px;
+}
+
+.texte{
+    
+    width: 40em;
+    position:absolute; 
+    right:500px;
+    display:inline;
+}
+
+
+#films{
+    margin:40px;
+    padding-left:5px;
+    width: 150px;
+    display:inline;
+} 
+
+#imgC{
+    margin:50px;
+    border-radius: 50%;
+    border: 5px solid lightgrey ;
+}
