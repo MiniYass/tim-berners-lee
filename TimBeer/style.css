@@ -24,6 +24,7 @@ button{
     color: white;
     background-color:rgb(211, 52, 52);
     border-radius: 5px;
+    
     padding:10px;
     margin: 5px;
 }
@@ -45,10 +46,7 @@ li{
     width: 32%;
     margin:3px;
 }
-i{
-    width:50px;
-    height: 50px;
-}
+
 article{
     display:flex;
     flex-flow: column;
@@ -65,6 +63,10 @@ section{
     z-index: 1;
     box-shadow: 10px;
     border-radius: 5px;
+}
+i{
+    font-size: 50px;
+    text-align: center;
 }
 
 .texte{
@@ -88,3 +90,4 @@ section{
     border-radius: 50%;
     border: 5px solid lightgrey ;
 }
+
